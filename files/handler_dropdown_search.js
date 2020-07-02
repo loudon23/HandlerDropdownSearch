@@ -6,6 +6,8 @@ $(document).ready(function () {
     $('.selectpicker').selectpicker({
         noneSelectedText:'할당 되지 않음',
         noneResultsText:'{0}과 일치하는 결과가 없습니다.',
-        styleBase:'btn btn-sm'
+        styleBase:'btn btn-sm',
+        size:10,
+        liveSearchPlaceholder: '할당 검색'
     });
 });
