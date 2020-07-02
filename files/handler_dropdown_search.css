@@ -1,0 +1,27 @@
+/**
+ * mantisbt 의 btn-default 가 기본 색깔이 있다보니 
+ * select 랑 스타일이 달라 select와 동일하게 맞춤
+ */
+ .btn-default.dropdown-toggle {
+    border-radius: 0;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    text-shadow:none;
+    color: #858585!important;
+    background-color: #FFF!important;
+    border: 1px solid #D5D5D5;
+    outline: none;
+}
+
+.bootstrap-select>.btn-default.dropdown-toggle,
+.bootstrap-select>.btn-default.dropdown-toggle.focus,
+.bootstrap-select>.btn-default.dropdown-toggle:active,
+.bootstrap-select>.btn-default.dropdown-toggle:focus:active,
+.bootstrap-select>.btn-default.dropdown-toggle:focus,
+.bootstrap-select>.btn-default.dropdown-toggle:hover,
+.bootstrap-select>.btn-default.dropdown-toggle:focus:hover
+{
+    background-color: #FFFFFF!important;
+    border-color: #ABBAC3;
+    outline: none!important;
+}
